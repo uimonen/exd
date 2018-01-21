@@ -1,0 +1,66 @@
+2               # Number of sites
+1				# Number of spin-ups	
+1				# Number of spin-downs	
+4.0             # electron-electron interaction strength U_ii.  U_ij = U_ii/(2.0*fabs(i-j))
+0.0             # on-site parameter [a_c] for the central system sites
+-1.0            # hopping parameter [b_c] for the central system sites
+0               # Type of interaction 0: Hubbard 1: Coulomb
+0               # Chemical structure 0 :basic  5: tiophene
+
+0.0 0.0     # spin-up potential for the initial state
+0.0 0.0     # spin-down potential for the initial state
+
+0.0 0.0     # spin-up potential for the final state
+0.0 0.0     # spin-down potential for the final state
+
+0               # kick = 1 /  0 = no kick
+0.1             # Electric field strenght 
+500             # number of time-steps
+0.1             # time-step for the propagation
+
+1               # NOT WORKING YET!! Is the spectral function calculated 1 = yes /  0 = no NOTICE. Spectral function is not calculated if kick is applied. 
+10              # Limits of the plot
+100             # Accuracy (= 1 / acc)
+
+############## END OF INPUT FILE ##########################
+
+
+/* make basis assuming 10>up>0, 5>down>-1 up>down or up=down */
+
+
+0.0 0.0 0.0 0.0     # spin-up potential for the initial state
+0.0 0.0 0.0 0.0     # spin-down potential for the initial state
+
+0.0 0.0 0.0 0.0     # spin-up potential for the final state
+0.0 0.0 0.0 0.0     # spin-down potential for the final state
+
+
+0.0 0.0 0.0 0.0 0.0 0.0     # spin-up potential for the initial state
+0.0 0.0 0.0 0.0 0.0 0.0     # spin-down potential for the initial state
+
+0.0 0.0 0.0 0.0 0.0 0.0     # spin-up potential for the final state
+0.0 0.0 0.0 0.0 0.0 0.0     # spin-down potential for the final state
+
+
+0.0 0.0 0.0 0.0     # spin-up potential for the initial state
+0.0 0.0 0.0 0.0     # spin-down potential for the initial state
+
+0.0 0.0 0.0 0.0     # spin-up potential for the final state
+0.0 0.0 0.0 0.0     # spin-down potential for the final state
+
+
+
+
+0.0 0.0     # spin-up potential for the initial state
+0.0 0.0     # spin-down potential for the initial state
+
+0.0 0.0     # spin-up potential for the final state
+0.0 0.0     # spin-down potential for the final state
+
+
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0    # spin-up potential for the initial state
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0    # spin-down potential for the initial state
+
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0   # spin-up potential for the final state
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0   # spin-down potential for the final state
+
